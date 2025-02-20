@@ -5,7 +5,10 @@ export default function ChatBot() {
   const [isChatOpen, setIsChatOpen] = useState(false);
   const [message, setMessage] = useState("");
   const [chatHistory, setChatHistory] = useState([
-    { sender: "bot", text: "Hello! How can I help you today?" },
+    {
+      sender: "bot",
+      text: "Bonjour! Comment puis-je vous aider aujourd'hui ?",
+    },
   ]);
 
   const chatEndRef = useRef(null);
