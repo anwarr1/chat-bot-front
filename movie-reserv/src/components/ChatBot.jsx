@@ -20,7 +20,7 @@ export default function ChatBot() {
 
     try {
       const response = await fetch(
-        "https://4cfe-105-155-249-182.ngrok-free.app/ask",
+        "https://a99d-105-155-249-182.ngrok-free.app/ask",
         {
           method: "POST",
           headers: {
